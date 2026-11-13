@@ -1,0 +1,13 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.0, pytest-9.2.0, pluggy-1.7.0 -- D:\M1-CPS2\Technological foundations of software development - M\Assignment3\csv-data-analyzer\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\M1-CPS2\Technological foundations of software development - M\Assignment3\csv-data-analyzer
+configfile: pyproject.toml
+collecting ... collected 4 items
+
+tests/test_analyzer.py::test_csv_statistics PASSED                       [ 25%]
+tests/test_analyzer.py::test_missing_file PASSED                         [ 50%]
+tests/test_analyzer.py::test_invalid_file_extension PASSED               [ 75%]
+tests/test_analyzer.py::test_all_missing_numeric_values PASSED           [100%]
+
+============================== 4 passed in 0.62s ==============================

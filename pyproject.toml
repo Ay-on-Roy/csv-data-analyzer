@@ -1,0 +1,28 @@
+[project]
+name = "csv-data-analyzer"
+version = "0.1.1"
+description = "A command-line tool for analyzing CSV datasets and generating JSON statistical reports."
+authors = [
+    {name = "Ayon Roy",email = "ayonroycvc@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pandas (>=3.1.1,<4.0.0)",
+    "typer (>=0.29.1,<0.30.0)"
+]
+
+[tool.poetry]
+packages = [{include = "csv_data_analyzer", from = "src"}]
+
+[project.scripts]
+csv-analyzer = "csv_data_analyzer.cli:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.2.0,<10.0.0)"
+]

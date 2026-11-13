@@ -1,0 +1,6 @@
+name,age,score,city
+Alice,22,85,Paris
+Bob,24,90,Lyon
+Charlie,,78,Paris
+Diana,23,92,Marseille
+Edward,25,,Lyon
